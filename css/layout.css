@@ -1,0 +1,133 @@
+/* 
+   CEOS - Clean Tech Layout (Light Mode)
+   Updated: 2025-12-19
+*/
+
+/* --- Header --- */
+.site-header {
+    background-color: rgba(255, 255, 255, 0.95);
+    /* High opacity white */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--color-border);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    z-index: 1000;
+    box-shadow: var(--shadow-sm);
+}
+
+.site-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.logo {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    letter-spacing: -0.05em;
+}
+
+.logo span {
+    color: var(--color-accent);
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav ul {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.main-nav a {
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: var(--color-text-main);
+}
+
+.main-nav a:hover,
+.main-nav a.active {
+    color: var(--color-accent);
+}
+
+/* Special button in nav */
+.main-nav .btn-primary {
+    color: #fff !important;
+}
+
+/* --- Hero Section --- */
+.hero {
+    /* Background handled inline, but we might want to override the dark overly for light theme if the image isn't replaced */
+    /* For "Clean Tech", we usually want a bright hero. 
+       Since we keep the image, we'll keep the overlay but maybe lighter? 
+       Actually, standard hero images usually need dark overlay for white text. 
+       Let's keep the hero dark for contrast, but clean up the text. */
+    position: relative;
+    overflow: hidden;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+    /* Clean white text on hero */
+    color: #fff;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.9);
+    max-width: 600px;
+    margin-bottom: 2.5rem;
+}
+
+/* --- Footer --- */
+.site-footer {
+    background-color: var(--color-primary);
+    /* Dark footer for anchor */
+    border-top: none;
+    padding: 4rem 0 2rem;
+    color: #cbd5e1;
+    /* Light slate text */
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.footer-col h4 {
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.footer-col ul li {
+    margin-bottom: 0.8rem;
+}
+
+.footer-col a:hover {
+    color: var(--color-accent);
+    /* Vivid blue hover */
+}
+
+.copyright {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+}

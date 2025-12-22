@@ -1,0 +1,149 @@
+/* 
+   CEOS - Clean Tech Design System (Light Mode)
+   Updated: 2025-12-19
+*/
+
+:root {
+    /* --- Clean Tech Palette --- */
+    --color-bg: #ffffff;
+    /* Pure White */
+    --color-bg-alt: #f8fafc;
+    /* Slate 50 (Very light grey) for contrast */
+    --color-primary: #0f172a;
+    /* Deep Slate Blue (Main Text/Headings) */
+    --color-text-main: #334155;
+    /* Slate 700 (Body Text) */
+    --color-text-light: #64748b;
+    /* Slate 500 (Meta/Secondary) */
+
+    --color-accent: #0284c7;
+    /* Vivid Blue (Sky 600) */
+    --color-accent-hover: #0369a1;
+    /* Sky 700 */
+    --color-secondary: #6366f1;
+    /* Indigo (Accents) */
+    --color-success: #10b981;
+    /* Emerald */
+    --color-warning: #f59e0b;
+    /* Amber */
+
+    --color-border: #e2e8f0;
+    /* Slate 200 */
+    --glass-bg: rgba(255, 255, 255, 0.9);
+    --glass-border: rgba(255, 255, 255, 0.5);
+
+    /* --- Typography --- */
+    --font-heading: 'Inter', sans-serif;
+    --font-body: 'Inter', sans-serif;
+
+    /* --- Spacing --- */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 2rem;
+    --spacing-lg: 4rem;
+    --spacing-xl: 8rem;
+
+    /* --- Effects --- */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadow-glow: 0 0 20px rgba(2, 132, 199, 0.15);
+    /* Blue subtle glow */
+
+    --radius-sm: 6px;
+    --radius-md: 12px;
+    --radius-lg: 24px;
+
+    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* --- Reset & Base --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--color-bg);
+    color: var(--color-text-main);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-heading);
+    color: var(--color-primary);
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    /* Tighter tracking for modern look */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: var(--transition);
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* --- Utilities --- */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-sm);
+}
+
+.section-padding {
+    padding: var(--spacing-lg) 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.bg-dark {
+    background-color: var(--color-primary);
+    /* Dark Sections (Footer/Hero) */
+    color: white;
+}
+
+.bg-light {
+    background-color: var(--color-bg-alt);
+}
+
+/* Scrollbar styling for Webkit */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}

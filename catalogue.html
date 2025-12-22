@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Découvrez nos formations professionnelles à La Réunion : Management, RSE, Efficacité Professionnelle. Programmes éligibles OPCO & Qualiopi.">
+    <title>Catalogue de Formations - CEOS Réunion</title>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container">
+            <a href="index.html" class="logo"><img src="img/logo.png" alt="CEOS" style="height: 60px;"></a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="catalogue.html" class="active">Formations</a></li>
+                    <li><a href="methodologie.html">Méthode</a></li>
+                    <li><a href="qualite.html">Qualité</a></li>
+                    <li><a href="a-propos.html">À Propos</a></li>
+                    <li><a href="contact.html" class="btn btn-primary" style="padding: 0.5rem 1rem;">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="section-padding bg-dark text-white text-center" style="padding-top: var(--spacing-xl);">
+        <div class="container">
+            <h1>Notre Catalogue de Formations</h1>
+            <p style="opacity: 0.8; max-width: 600px; margin: 0 auto; color: white;">
+                Développez les compétences clés de votre organisation grâce à nos parcours d'excellence.
+                Adaptés aux défis opérationnels des entreprises réunionnaises.
+            </p>
+        </div>
+    </section>
+
+    <!-- Catalogue Content -->
+    <section class="section-padding">
+        <div class="container">
+
+            <!-- Filters (Visual) -->
+            <div class="text-center" style="margin-bottom: 3rem;">
+                <button class="filter-btn btn btn-primary" data-filter="all" style="margin: 0.5rem;">Tout</button>
+                <button class="filter-btn btn btn-secondary" data-filter="agri-urbaine" style="margin: 0.5rem;">Agri
+                    Urbaine</button>
+                <button class="filter-btn btn btn-secondary" data-filter="amiante"
+                    style="margin: 0.5rem;">Amiante</button>
+                <button class="filter-btn btn btn-secondary" data-filter="gestion-dechets"
+                    style="margin: 0.5rem;">Gestion Déchets</button>
+                <button class="filter-btn btn btn-secondary" data-filter="management"
+                    style="margin: 0.5rem;">Management</button>
+                <button class="filter-btn btn btn-secondary" data-filter="rse" style="margin: 0.5rem;">RSE & DD</button>
+                <button class="filter-btn btn btn-secondary" data-filter="transition-eco"
+                    style="margin: 0.5rem;">Transition Écologique</button>
+
+            </div>
+
+            <!-- Agriculture Urbaine Section -->
+            <div class="text-center">
+                <h2 id="agri-urbaine"
+                    style="border-bottom: 2px solid var(--color-accent); display: inline-block; padding-bottom: 0.5rem; margin-bottom: 2rem;">
+                    Agriculture Urbaine</h2>
+            </div>
+            <div class="grid-3" style="margin-bottom: 4rem;">
+                <!-- Card 1 -->
+                <!-- Card 1 -->
+                <div class="card" style="padding: 0; overflow: hidden;">
+                    <img src="img/course-agri-urbaine.png" alt="Agriculture Urbaine"
+                        style="width: 100%; height: 200px; object-fit: cover;">
+
+                    <div style="padding: 2rem;">
+                        <div style="margin-bottom: 1rem;"><span class="badge badge-outline">Nouveau</span></div>
+                        <h3 class="card-title"><a href="formation-agriculture-urbaine.html">L'Agriculture Urbaine</a>
+                        </h3>
+                        <p class="card-content">Planifier et soutenir l'agriculture en ville pour des quartiers
+                            durables.</p>
+                        <div
+                            style="margin-top: 1rem; border-top: 1px solid #eee; padding-top: 1rem; color: var(--color-text-light); font-size: 0.9rem;">
+                            <i class="fa-regular fa-clock"></i> 1 jour (7h) &nbsp;|&nbsp; <i
+                                class="fa-solid fa-user-group"></i> Tout niveau
+                        </div>
+                        <a href="formation-agriculture-urbaine.html" class="btn btn-secondary"
+                            style="margin-top: 1.5rem; text-align: center;">Voir le
+                            programme</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Amiante Section -->
+            <div class="text-center">
+                <h2 id="amiante"
+                    style="border-bottom: 2px solid var(--color-accent); display: inline-block; padding-bottom: 0.5rem; margin-bottom: 2rem;">
+                    Amiante</h2>
+            </div>
+            <div class="grid-3" style="margin-bottom: 4rem;">
+                <!-- Card 1 -->
+                <!-- Card 1 -->
+                <div class="card" style="padding: 0; overflow: hidden;">
+                    <img src="img/course-amiante.png" alt="Amiante"
+                        style="width: 100%; height: 200px; object-fit: cover;">
+                    <div style="padding: 2rem;">
+                        <div style="margin-bottom: 1rem;"><span class="badge badge-outline">Réglementaire</span></div>
+                        <h3 class="card-title"><a href="formation-gestion-amiante.html">La gestion de la problématique
+                                Amiante</a></h3>
+                        <p class="card-content">Maîtriser les risques sanitaires et réglementaires liés à l'amiante.</p>
+                        <div
+                            style="margin-top: 1rem; border-top: 1px solid #eee; padding-top: 1rem; color: var(--color-text-light); font-size: 0.9rem;">
+                            <i class="fa-regular fa-clock"></i> 1 jour (7h) &nbsp;|&nbsp; <i
+                                class="fa-solid fa-user-group"></i> Tout niveau
+                        </div>
+                        <a href="formation-gestion-amiante.html" class="btn btn-secondary"
+                            style="margin-top: 1.5rem; text-align: center;">Voir le
+                            programme</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gestion des Dechets Section -->
+            <div class="text-center">
+                <h2 id="gestion-dechets"
+                    style="border-bottom: 2px solid var(--color-accent); display: inline-block; padding-bottom: 0.5rem; margin-bottom: 2rem;">
+                    Gestion des Déchets</h2>
+            </div>
+            <div class="grid-3" style="margin-bottom: 4rem;">
+                <!-- Card 1 -->
+                <!-- Card 1 -->
+                <div class="card" style="padding: 0; overflow: hidden;">
+                    <img src="img/course-gestion-dechets.png" alt="Gestion Déchets"
+                        style="width: 100%; height: 200px; object-fit: cover;">
+                    <div style="padding: 2rem;">
+                        <div style="margin-bottom: 1rem;"><span class="badge badge-outline">Opérationnel</span></div>
+                        <h3 class="card-title"><a href="formation-gestion-dechets.html">La gestion des déchets</a></h3>
+                        <p class="card-content">Élaborer une stratégie complète de gestion, tri et valorisation des
+                            déchets.</p>
+                        <div
+                            style="margin-top: 1rem; border-top: 1px solid #eee; padding-top: 1rem; color: var(--color-text-light); font-size: 0.9rem;">
+                            <i class="fa-regular fa-clock"></i> 1 jour (7h) &nbsp;|&nbsp; <i
+                                class="fa-solid fa-user-group"></i> Tout niveau
+                        </div>
+                        <a href="formation-gestion-dechets.html" class="btn btn-secondary"
+                            style="margin-top: 1.5rem; text-align: center;">Voir le
+                            programme</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Management Section -->
+            <div class="text-center">
+                <h2 id="management"
+                    style="border-bottom: 2px solid var(--color-accent); display: inline-block; padding-bottom: 0.5rem; margin-bottom: 2rem;">
+                    Management & Leadership</h2>
+            </div>
+            <div class="grid-3" style="margin-bottom: 4rem;">
+                <!-- Card 2 (New - Reglementation) -->
+                <!-- Card 2 (New - Reglementation) -->
+                <div class="card" style="padding: 0; overflow: hidden;">
+                    <img src="img/course-reglementation.png" alt="Réglementation"
+                        style="width: 100%; height: 200px; object-fit: cover;">
+                    <div style="padding: 2rem;">
+                        <div style="margin-bottom: 1rem;"><span class="badge badge-outline">Essentiel</span></div>
+                        <h3 class="card-title"><a href="formation-reglementation-environnement.html">Réglementation &
+                                Environnement</a></h3>
+                        <p class="card-content">Maîtriser la Loi Climat, ICPE et la gestion des risques
+                            environnementaux.</p>
+                        <div
+                            style="margin-top: 1rem; border-top: 1px solid #eee; padding-top: 1rem; color: var(--color-text-light); font-size: 0.9rem;">
+                            <i class="fa-regular fa-clock"></i> 1 jour (7h) &nbsp;|&nbsp; <i
+                                class="fa-solid fa-user-group"></i> Tout niveau
+                        </div>
+                        <a href="formation-reglementation-environnement.html" class="btn btn-secondary"
+                            style="margin-top: 1.5rem; text-align: center;">Voir le
+                            programme</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RSE Section -->
+            <div class="text-center">
+                <h2 id="rse"
+                    style="border-bottom: 2px solid var(--color-accent); display: inline-block; padding-bottom: 0.5rem; margin-bottom: 2rem;">
+                    RSE & Développement Durable</h2>
+            </div>
+            <div class="grid-3" style="margin-bottom: 4rem;">
+                <!-- Card 3 (New) -->
+                <!-- Card 3 (New) -->
+                <div class="card" style="padding: 0; overflow: hidden;">
+                    <img src="img/course-ecologie-management.png" alt="Écologie & Management"
+                        style="width: 100%; height: 200px; object-fit: cover;">
+                    <div style="padding: 2rem;">
+                        <div style="margin-bottom: 1rem;"><span class="badge badge-outline">Nouveau</span></div>
+                        <h3 class="card-title"><a href="formation-ecologie-management.html">Écologie, Management &
+                                Environnement</a></h3>
+                        <p class="card-content">Les enjeux du développement durable au cœur de l’entreprise.</p>
+                        <div
+                            style="margin-top: 1rem; border-top: 1px solid #eee; padding-top: 1rem; color: var(--color-text-light); font-size: 0.9rem;">
+                            <i class="fa-regular fa-clock"></i> 1 jour (7h) &nbsp;|&nbsp; <i
+                                class="fa-solid fa-user-group"></i> Tout niveau
+                        </div>
+                        <a href="formation-ecologie-management.html" class="btn btn-secondary"
+                            style="margin-top: 1.5rem; text-align: center;">Voir le
+                            programme</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Transition Ecologique Section -->
+            <div class="text-center">
+                <h2 id="transition-eco"
+                    style="border-bottom: 2px solid var(--color-accent); display: inline-block; padding-bottom: 0.5rem; margin-bottom: 2rem;">
+                    Transition Écologique</h2>
+            </div>
+            <div class="grid-3" style="margin-bottom: 4rem;">
+                <!-- Card 1 -->
+                <!-- Card 1 -->
+                <div class="card" style="padding: 0; overflow: hidden;">
+                    <img src="img/course-eco-innovation.png" alt="Éco Innovation"
+                        style="width: 100%; height: 200px; object-fit: cover;">
+                    <div style="padding: 2rem;">
+                        <div style="margin-bottom: 1rem;"><span class="badge badge-outline">Stratégique</span></div>
+                        <h3 class="card-title"><a href="formation-ecologie-innovation.html">Écologie & Innovation</a>
+                        </h3>
+                        <p class="card-content">Révolutionner vos produits et services grâce à l'éco-innovation.</p>
+                        <div
+                            style="margin-top: 1rem; border-top: 1px solid #eee; padding-top: 1rem; color: var(--color-text-light); font-size: 0.9rem;">
+                            <i class="fa-regular fa-clock"></i> 1 jour (7h) &nbsp;|&nbsp; <i
+                                class="fa-solid fa-user-group"></i> Tout niveau
+                        </div>
+                        <a href="formation-ecologie-innovation.html" class="btn btn-secondary"
+                            style="margin-top: 1.5rem; text-align: center;">Voir le
+                            programme</a>
+                    </div>
+                </div>
+
+                <!-- Card 2 (New - Mobilité) -->
+                <!-- Card 2 (New - Mobilité) -->
+                <div class="card" style="padding: 0; overflow: hidden;">
+                    <img src="img/course-mobilite.png" alt="Mobilité"
+                        style="width: 100%; height: 200px; object-fit: cover;">
+                    <div style="padding: 2rem;">
+                        <div style="margin-bottom: 1rem;"><span class="badge badge-outline">Nouveau</span></div>
+                        <h3 class="card-title"><a href="formation-transition-mobilite.html">Transition Écologique &
+                                Mobilité</a></h3>
+                        <p class="card-content">Mobilité durable : transports, électrique et innovations urbaines.</p>
+                        <div
+                            style="margin-top: 1rem; border-top: 1px solid #eee; padding-top: 1rem; color: var(--color-text-light); font-size: 0.9rem;">
+                            <i class="fa-regular fa-clock"></i> 1 jour (7h) &nbsp;|&nbsp; <i
+                                class="fa-solid fa-user-group"></i> Tout niveau
+                        </div>
+                        <a href="formation-transition-mobilite.html" class="btn btn-secondary"
+                            style="margin-top: 1.5rem; text-align: center;">Voir le
+                            programme</a>
+                    </div>
+                </div>
+
+                <!-- Card 3 (New - Économie Circulaire) -->
+                <!-- Card 3 (New - Économie Circulaire) -->
+                <div class="card" style="padding: 0; overflow: hidden;">
+                    <img src="img/course-economie-circulaire.png" alt="Économie Circulaire"
+                        style="width: 100%; height: 200px; object-fit: cover;">
+                    <div style="padding: 2rem;">
+                        <div style="margin-bottom: 1rem;"><span class="badge badge-outline">Innovant</span></div>
+                        <h3 class="card-title"><a href="formation-transition-economie-circulaire.html">Transition
+                                Écologique
+                                & Économie Circulaire</a></h3>
+                        <p class="card-content">Réduire, recycler, valoriser : les clés de l'économie circulaire.</p>
+                        <div
+                            style="margin-top: 1rem; border-top: 1px solid #eee; padding-top: 1rem; color: var(--color-text-light); font-size: 0.9rem;">
+                            <i class="fa-regular fa-clock"></i> 1 jour (7h) &nbsp;|&nbsp; <i
+                                class="fa-solid fa-user-group"></i> Tout niveau
+                        </div>
+                        <a href="formation-transition-economie-circulaire.html" class="btn btn-secondary"
+                            style="margin-top: 1.5rem; text-align: center;">Voir le
+                            programme</a>
+                    </div>
+                </div>
+
+                <!-- Card 4 (New - Éducation) -->
+                <!-- Card 4 (New - Éducation) -->
+                <div class="card" style="padding: 0; overflow: hidden;">
+                    <img src="img/course-education.png" alt="Éducation"
+                        style="width: 100%; height: 200px; object-fit: cover;">
+                    <div style="padding: 2rem;">
+                        <div style="margin-bottom: 1rem;"><span class="badge badge-outline">Sociétal</span></div>
+                        <h3 class="card-title"><a href="formation-transition-education.html">Transition Écologique,
+                                Éducation et Sensibilisation</a></h3>
+                        <p class="card-content">Jouer un rôle actif dans l'éducation et la sensibilisation au
+                            changement.</p>
+                        <div
+                            style="margin-top: 1rem; border-top: 1px solid #eee; padding-top: 1rem; color: var(--color-text-light); font-size: 0.9rem;">
+                            <i class="fa-regular fa-clock"></i> 1 jour (7h) &nbsp;|&nbsp; <i
+                                class="fa-solid fa-user-group"></i> Tout niveau
+                        </div>
+                        <a href="formation-transition-education.html" class="btn btn-secondary"
+                            style="margin-top: 1.5rem; text-align: center;">Voir le
+                            programme</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <!-- Footer Include (Static for now) -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo"
+                        style="display: inline-block; margin-bottom: 1rem; background: white; padding: 10px; border-radius: 8px;"><img
+                            src="img/logo.png" alt="CEOS" style="height: 50px;"></a>
+                    <p style="color: rgba(255,255,255,0.6); font-size: 0.9rem;">
+                        Organisme de formation et de conseil expert en management et développement durable à La Réunion.
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h4>Formations</h4>
+                    <ul>
+                        <li><a href="catalogue.html#management">Management</a></li>
+                        <li><a href="catalogue.html#rse">RSE & Environnement</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Entreprise</h4>
+                    <ul>
+                        <li><a href="a-propos.html">Qui sommes-nous ?</a></li>
+                        <li><a href="mentions-legales.html">Mentions Légales</a></li>
+                        <li><a href="politique-confidentialite.html">Politique de confidentialité</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-phone" style="margin-right: 0.5rem; color: var(--color-accent);"></i>
+                            0692 65 61 66</li>
+                        <li><i class="fa-solid fa-envelope"
+                                style="margin-right: 0.5rem; color: var(--color-accent);"></i> <a
+                                href="mailto:contact@ceos.re">contact@ceos.re</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 CEOS. Tous droits réservés.</p>
+                <div style="display: flex; gap: 1rem; color: white;">
+                    <a href="https://drive.google.com/open?id=1s1_3W-IgN-M66UdYMJVooHsYDPy_6u0s&usp=drive_fs"
+                        target="_blank">
+                        <img src="img/qualiopi.png" alt="Certification Qualiopi"
+                            style="height: 300px; background: white; padding: 5px; border-radius: 4px;">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const buttons = document.querySelectorAll('.filter-btn');
+            const sections = [
+                { id: 'management', element: document.getElementById('management').parentElement, grid: document.getElementById('management').parentElement.nextElementSibling },
+                { id: 'rse', element: document.getElementById('rse').parentElement, grid: document.getElementById('rse').parentElement.nextElementSibling },
+                { id: 'agri-urbaine', element: document.getElementById('agri-urbaine').parentElement, grid: document.getElementById('agri-urbaine').parentElement.nextElementSibling },
+                { id: 'amiante', element: document.getElementById('amiante').parentElement, grid: document.getElementById('amiante').parentElement.nextElementSibling },
+                { id: 'transition-eco', element: document.getElementById('transition-eco').parentElement, grid: document.getElementById('transition-eco').parentElement.nextElementSibling },
+                { id: 'gestion-dechets', element: document.getElementById('gestion-dechets').parentElement, grid: document.getElementById('gestion-dechets').parentElement.nextElementSibling }
+            ];
+
+            buttons.forEach(button => {
+                button.addEventListener('click', function () {
+                    const filter = this.getAttribute('data-filter');
+
+                    // Update active button state
+                    buttons.forEach(btn => {
+                        btn.classList.remove('btn-primary');
+                        btn.classList.add('btn-secondary');
+                    });
+                    this.classList.remove('btn-secondary');
+                    this.classList.add('btn-primary');
+
+                    // Filter sections
+                    sections.forEach(section => {
+                        if (filter === 'all' || section.id === filter) {
+                            section.element.style.display = 'inline-block'; // Restore original display
+                            section.grid.style.display = 'grid'; // Restore original display
+                        } else {
+                            section.element.style.display = 'none';
+                            section.grid.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>

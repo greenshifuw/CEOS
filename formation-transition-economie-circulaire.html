@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Formation Transition Écologique & Économie Circulaire à La Réunion. Intégrez l'économie circulaire : réduction des déchets, recyclage, éco-conception.">
+    <title>Formation Économie Circulaire - CEOS Réunion</title>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <style>
+        .formation-header {
+            background-color: var(--color-bg-alt);
+            padding: var(--spacing-lg) 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .formation-meta {
+            display: flex;
+            gap: 2rem;
+            margin-top: 1rem;
+            color: var(--color-text-light);
+            font-size: 0.95rem;
+        }
+
+        .formation-meta i {
+            color: var(--color-accent);
+            margin-right: 0.5rem;
+        }
+
+        .sticky-sidebar {
+            position: sticky;
+            top: 100px;
+        }
+
+        .content-block {
+            margin-bottom: 3rem;
+        }
+
+        .content-block h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .content-list li {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .content-list li::before {
+            content: '•';
+            color: var(--color-accent);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        .program-day {
+            background: #fff;
+            border: 1px solid #eee;
+            padding: 1.5rem;
+            border-radius: var(--radius-sm);
+            margin-bottom: 1rem;
+        }
+
+        .program-day h3 {
+            font-size: 1.2rem;
+            color: var(--color-primary);
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container">
+            <a href="index.html" class="logo"><img src="img/logo.png" alt="CEOS" style="height: 60px;"></a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="catalogue.html" class="active">Formations</a></li>
+                    <li><a href="methodologie.html">Méthode</a></li>
+                    <li><a href="qualite.html">Qualité</a></li>
+                    <li><a href="a-propos.html">À Propos</a></li>
+                    <li><a href="contact.html" class="btn btn-primary" style="padding: 0.5rem 1rem;">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Header Formation -->
+    <section class="formation-header">
+        <div class="container">
+            <div style="margin-bottom: 1rem;">
+                <span class="badge badge-outline">Transition Écologique</span>
+                <span class="badge badge-outline" style="margin-left: 0.5rem;">Tout niveau</span>
+            </div>
+            <h1>Transition Écologique & Économie Circulaire</h1>
+            <p style="font-size: 1.1rem; max-width: 800px; color: var(--color-text-light);">
+                Comprendre les enjeux de l’économie circulaire et le potentiel de développement lié pour nos activités :
+                réduction, recyclage, valorisation.
+            </p>
+
+            <div class="formation-meta">
+                <div class="formation-meta">
+                    <span><i class="fa-regular fa-clock"></i> 1 jour (7 heures)</span>
+                    <span><i class="fa-solid fa-layer-group"></i> Tout niveau</span>
+                    <span><i class="fa-solid fa-calendar-check"></i> Actualisé le 31/10/2025</span>
+                </div>
+
+                <div
+                    style="margin-top: 2rem; padding: 1rem; background: rgba(255,255,255,0.5); border-radius: 8px; border: 1px dashed var(--color-text-light);">
+                    <strong style="display: block; margin-bottom: 0.5rem; color: var(--color-primary);">Indicateurs de
+                        résultats :</strong>
+                    <div style="display: flex; gap: 2rem; flex-wrap: wrap; font-size: 0.9rem;">
+                        <span><i class="fa-solid fa-smile"
+                                style="color: var(--color-accent); margin-right: 0.5rem;"></i> Taux de satisfaction :
+                            <em>Prochainement disponible</em></span>
+                        <span><i class="fa-solid fa-users"
+                                style="color: var(--color-accent); margin-right: 0.5rem;"></i> Nombre de stagiaires :
+                            <em>Prochainement disponible</em></span>
+                        <span><i class="fa-solid fa-trophy"
+                                style="color: var(--color-accent); margin-right: 0.5rem;"></i> Taux de réussite :
+                            <em>Prochainement disponible</em></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contenu -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="grid-3" style="grid-template-columns: 2fr 1fr; gap: 4rem;">
+
+                <!-- Main Content -->
+                <div>
+                    <p class="content-block"
+                        style="font-size: 1.1rem; color: var(--color-primary); font-style: italic;">
+                        "Cette formation s'adresse aussi bien aux entreprises qu'aux collectivités. Les participants
+                        seront en mesure de contribuer activement à la transition écologique en intégrant des pratiques
+                        d'économie circulaire."
+                    </p>
+
+                    <!-- Objectifs -->
+                    <div class="content-block">
+                        <h2>Objectifs Pédagogiques</h2>
+                        <ul class="content-list">
+                            <li>Sensibiliser aux principes fondamentaux de la transition écologique (réduction impact,
+                                durabilité).</li>
+                            <li>Familiariser avec les concepts clés de l'économie circulaire (réduction, réutilisation,
+                                recyclage, valorisation).</li>
+                            <li>Intégrer les principes de l'économie circulaire dans les politiques locales et de
+                                gestion.</li>
+                            <li>Encourager la promotion et la mise en œuvre d'initiatives de valorisation des déchets.
+                            </li>
+                            <li>Concevoir des stratégies efficaces pour la gestion des matériaux (éco-responsable, durée
+                                de vie).</li>
+                            <li>Optimiser les processus de production pour réduire la consommation de ressources.</li>
+                            <li>Identifier les opportunités de soutien aux initiatives locales et collaborations
+                                public-privé.</li>
+                            <li>Sensibiliser et éduquer les parties prenantes aux pratiques éco-responsables.</li>
+                            <li>Évaluer l'impact environnemental des activités et processus.</li>
+                            <li>Communiquer pour informer sur les avantages de l'économie circulaire.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Compétences Visées -->
+                    <div class="content-block">
+                        <h2>Compétences Visées</h2>
+                        <ul class="content-list">
+                            <li>Connaissance des principes de l’économie circulaire.</li>
+                            <li>Savoir évaluer l’importance de l’économie circulaire dans la transition écologique.</li>
+                            <li>Comprendre l’intégration de l’économie circulaire dans les stratégies et pratiques.</li>
+                            <li>Savoir promouvoir l’économie circulaire.</li>
+                            <li>Pouvoir concevoir une stratégie de l’économie circulaire dans le spectre des matériaux.
+                            </li>
+                            <li>Connaissances des méthodes d’optimisation pour réduire la consommation.</li>
+                            <li>Savoir comment évaluer un impact environnemental.</li>
+                            <li>Connaissance en communication sur le thème de l’économie circulaire.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Public & Prérequis -->
+                    <div class="content-block">
+                        <h2>Public & Prérequis</h2>
+                        <p><strong>Public :</strong> Dirigeants, salariés, agents de collectivité. (Inter-entreprises
+                            et/ou Intra-entreprise).</p>
+                        <p><strong>Prérequis :</strong> Aucun.</p>
+                    </div>
+
+                    <!-- Programme -->
+                    <div class="content-block">
+                        <h2>Programme Détaillé</h2>
+
+                        <div class="program-day">
+                            <h3>Thèmes Abordés</h3>
+                            <ul class="content-list">
+                                <li><strong>Compréhension des Principes :</strong> Transition écologique et durabilité.
+                                </li>
+                                <li><strong>Exploration des Concepts :</strong> Les piliers de l'économie circulaire.
+                                </li>
+                                <li><strong>Intégration dans les Collectivités :</strong> Gestion durable des
+                                    ressources.</li>
+                                <li><strong>Promotion des Initiatives :</strong> Valorisation et boucles locales.</li>
+                                <li><strong>Élaboration de Stratégies :</strong> Gestion des matériaux et
+                                    éco-conception.</li>
+                                <li><strong>Optimisation des Processus :</strong> Production sobre et efficace.</li>
+                                <li><strong>Soutien aux Initiatives Locales :</strong> Synergies territoriales.</li>
+                                <li><strong>Éducation :</strong> Pratiques éco-responsables.</li>
+                                <li><strong>Évaluation de l'Impact :</strong> Outils et indicateurs.</li>
+                                <li><strong>Communication :</strong> Sensibilisation et engagement.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Méthodes & Évaluation -->
+                    <div class="content-block">
+                        <h2>Méthodes & Modalités</h2>
+                        <ul class="content-list">
+                            <li><strong>Méthodes mobilisées :</strong> Alternance d’exposés, questions-réponses,
+                                exercices et simulations de cas concrets.</li>
+                            <li><strong>Modalité d’évaluation :</strong> Evaluation théorique.</li>
+                            <li><strong>Dates prévues :</strong> Contactez nous pour obtenir le calendrier des sessions.
+                            </li>
+                            <li><strong>Délai d’accès :</strong> Inscriptions clôturées 15 jours avant la session.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Sidebar (Sticky) -->
+                <aside>
+                    <div class="card sticky-sidebar" style="border-top: 4px solid var(--color-accent);">
+                        <h3 class="card-title" style="font-size: 1.3rem;">Cette formation vous intéresse ?</h3>
+                        <p style="margin-bottom: 2rem; font-size: 0.9rem;">
+                            Tarifs : <strong>Contactez-nous pour obtenir un devis</strong>.
+                        </p>
+
+                        <a href="contact.html?ref=ECO-CIR" class="btn btn-primary"
+                            style="width: 100%; text-align: center; margin-bottom: 1rem;">Demander un devis</a>
+                        <a href="#" class="btn btn-secondary" style="width: 100%; text-align: center;">Télécharger le
+                            Programme</a>
+
+                        <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #eee;">
+                            <p style="font-size: 0.85rem; display: flex; align-items: center; margin-bottom: 0.5rem;">
+                                <i class="fa-solid fa-check"
+                                    style="color: var(--color-accent); margin-right: 0.5rem;"></i> Nos prestataires
+                                hôteliers sont des établissements permettant l’accès des personnes à mobilité réduite.
+                            </p>
+                            <p style="font-size: 0.85rem; padding-top: 0.5rem;">
+                                Nous consulter pour toute question relative à l’accessibilité de nos formations aux
+                                personnes en situation de handicap.
+                            </p>
+                        </div>
+                    </div>
+                </aside>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container text-center">
+            <p>&copy; 2025 CEOS. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

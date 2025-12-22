@@ -1,0 +1,163 @@
+/* 
+   CEOS - Clean Tech Components (Light Mode)
+   Updated: 2025-12-19
+*/
+
+/* --- Buttons --- */
+.btn {
+    display: inline-block;
+    padding: 0.8rem 1.8rem;
+    font-weight: 600;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: var(--transition);
+    font-size: 1rem;
+    letter-spacing: 0.01em;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid transparent;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-secondary) 100%);
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(2, 132, 199, 0.25);
+    border: none;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(2, 132, 199, 0.35);
+}
+
+.btn-secondary {
+    background: #fff;
+    color: var(--color-primary);
+    border: 1px solid var(--color-border);
+    box-shadow: var(--shadow-sm);
+}
+
+.btn-secondary:hover {
+    background: var(--color-bg-alt);
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.btn-white {
+    background: #fff;
+    color: var(--color-accent);
+    font-weight: 700;
+}
+
+.btn-white:hover {
+    background: #f8fafc;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Cards --- */
+.card {
+    background: #fff;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    padding: 2rem;
+    transition: var(--transition);
+    position: relative;
+    box-shadow: var(--shadow-sm);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: var(--color-accent);
+    box-shadow: var(--shadow-lg);
+}
+
+.card-title {
+    font-size: 1.35rem;
+    margin-bottom: 1rem;
+}
+
+.card-title a {
+    color: var(--color-primary);
+}
+
+.card-title a:hover {
+    color: var(--color-accent);
+}
+
+.card-content {
+    color: var(--color-text-light);
+    font-size: 0.95rem;
+    line-height: 1.7;
+}
+
+/* --- Badges --- */
+.badge {
+    display: inline-block;
+    padding: 0.35rem 0.8rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.badge-outline {
+    background: rgba(2, 132, 199, 0.08);
+    color: var(--color-accent);
+    border: 1px solid rgba(2, 132, 199, 0.2);
+}
+
+/* --- Grid System --- */
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-md);
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-md);
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--spacing-md);
+}
+
+/* --- Section Headers --- */
+h2 {
+    position: relative;
+    font-size: 2.25rem;
+    margin-bottom: 1.5rem;
+}
+
+/* --- Inputs/Forms --- */
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    color: var(--color-primary);
+    font-family: var(--font-body);
+    transition: var(--transition);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border-color: var(--color-accent);
+    box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.1);
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #cbd5e1;
+}
