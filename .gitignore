@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Thumbnails
+Thumbs.db
+ehthumbs.db
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node (si jamais)
+node_modules/
+npm-debug.log*
+.env
+.env.local
+
+# Dossiers temporaires / builds
+dist/
+build/
+tmp/
